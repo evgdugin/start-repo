@@ -3,6 +3,8 @@ package main
 import (
 	"flag"
 	"log"
+
+	"github.com/evgdugin/start-repo/app"
 )
 
 func main() {
