@@ -1,5 +1,7 @@
 package app
 
+import "net/http"
+
 type App interface {
 	Run()
 }
@@ -16,5 +18,6 @@ func (a *app) parseConfig(configFileName string) error {
 		return err
 	}
 	a.config = config
+
 	return nil
 }
